@@ -1,15 +1,4 @@
 
-//toggle function  javascript VS jquery
-function toggle(){
-	/*var x = document.getElementById("msg")
-	if(x.style.display == "block")
-	{
-		x.style.display ="none";
-	}
-	else
-		x.style.display ="block";*/
-	$("h1").toggle();
-}
 //SLIDE UP
 $("#slide").click(function(){
 	$("#love").slideUp();
